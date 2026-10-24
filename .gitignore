@@ -1,0 +1,9 @@
+node_modules/
+dist/
+data/store.json
+data/archive.jsonl
+data/annotations*.csv
+.env
+.env.local
+*.log
+.DS_Store
