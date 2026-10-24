@@ -126,7 +126,8 @@ These historical interface snapshots illustrate features, not current experiment
 
 ### 1. 多家媒体如何报道同一事件 / Compare coverage of the same event
 
-<img width="2077" height="1268" alt="02-outlet-comparison" src="https://github.com/user-attachments/assets/d02be989-75b9-4071-861c-45f890b86a63" />
+<img width="2077" height="1268" alt="02-outlet-comparison" src="https://github.com/user-attachments/assets/96a3f7e4-7719-4739-8f6e-953ac72122f0" />
+
 
 
 展示标题、摘要和原文入口，便于并排比较。
@@ -135,7 +136,8 @@ Headlines, summaries, and source links support side-by-side reading.
 
 ### 2. 原文证据与中性改写 / Quoted evidence and neutral alternatives
 
-<img width="2070" height="1913" alt="03-evidence" src="https://github.com/user-attachments/assets/4cc1175e-489b-43e1-ae65-1617752fa5a5" />
+<img width="2070" height="1913" alt="03-evidence" src="https://github.com/user-attachments/assets/c9d1c790-10d8-44d5-8e14-e12505bc60e9" />
+
 
 
 局部界面示例，仅保留 NPR 与 Indian Express 两列。展示模型输出，不代表分析已经人工核实；编号 2、3 沿用原图。
@@ -144,7 +146,8 @@ Cropped interface example showing NPR and Indian Express. Model outputs have not
 
 ### 3. 报道框架相似度 / Framing similarity across reports
 
-<img width="2011" height="993" alt="07-agreement" src="https://github.com/user-attachments/assets/6866614d-a58f-434d-a6de-99e03a0a0c84" />
+<img width="2011" height="993" alt="07-agreement" src="https://github.com/user-attachments/assets/ad1c224d-8477-4925-86ef-ee2815103b9c" />
+
 
 
 矩阵为模型估计的框架相似度，不是事实一致率或准确率。
