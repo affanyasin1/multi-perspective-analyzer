@@ -156,7 +156,8 @@ The matrix shows model-estimated framing similarity, not factual agreement or ac
 
 ### 4. 单一来源报道 / Single-source reports
 
-<img width="2163" height="1863" alt="08-single-source" src="https://github.com/user-attachments/assets/60f11bf6-8e99-441e-b500-d2d15b3b4b8b" />
+<img width="2163" height="1863" alt="08-single-source" src="https://github.com/user-attachments/assets/be380923-5b06-4bfe-869d-d6968720935c" />
+
 
 
 仅表示在当前采集与聚类范围内未匹配到其他媒体，不代表其他地方没有相关报道。
@@ -164,12 +165,18 @@ The matrix shows model-estimated framing similarity, not factual agreement or ac
 Single-source status means no other outlet was matched within the current collection and clustering scope; it does not establish that no other coverage exists.
 
 
-<img width="2134" height="1363" alt="01-home" src="https://github.com/user-attachments/assets/a4b1eda0-851b-4f48-b8be-c7cd0a8fcbad" />
-<img width="2031" height="2068" alt="04-consensus-omissions" src="https://github.com/user-attachments/assets/6496dcf8-993b-402f-acdb-792ada211493" />
-<img width="1687" height="1970" alt="05-briefing" src="https://github.com/user-attachments/assets/b6163428-17bd-4a54-8f5f-1f8eac398c6a" />
-<img width="1734" height="1460" alt="06-agents" src="https://github.com/user-attachments/assets/a617ff11-e1bb-4735-b759-ee5ac498ef47" />
-<img width="2110" height="1961" alt="09-quality" src="https://github.com/user-attachments/assets/a5febda0-c500-419f-855f-18a632fc7303" />
-<img width="1669" height="1735" alt="10-evaluation" src="https://github.com/user-attachments/assets/fc75abf2-894d-4f17-b61c-3c1b85a09211" />
+<img width="2134" height="1363" alt="01-home" src="https://github.com/user-attachments/assets/666eaa81-7d74-46ae-a0dd-60e9ef865a10" />
+
+<img width="2031" height="2068" alt="04-consensus-omissions" src="https://github.com/user-attachments/assets/94ea759f-9fb0-43d9-9501-d1ec54c77b11" />
+
+<img width="1687" height="1970" alt="05-briefing" src="https://github.com/user-attachments/assets/2ee7f32f-f20a-4579-8ef7-5e433bd55590" />
+
+<img width="1734" height="1460" alt="06-agents" src="https://github.com/user-attachments/assets/33b1a384-8df9-41b2-aa85-277df84f45b9" />
+
+<img width="2110" height="1961" alt="09-quality" src="https://github.com/user-attachments/assets/a7b18729-26bf-41de-b7f2-132ae1985c37" />
+
+<img width="1669" height="1735" alt="10-evaluation" src="https://github.com/user-attachments/assets/f7d35c5f-1ad9-41ea-9ed7-3cb0d68c06ea" />
+
 
 
 
