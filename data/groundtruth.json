@@ -1,0 +1,24 @@
+{
+  "source": "Media Bias/Fact Check style reference lean — approximate, verify before citing",
+  "updated_at": "2026-10-12",
+  "scale": { "left": -1, "lean-left": -0.5, "center": 0, "lean-right": 0.5, "right": 1 },
+  "outlets": {
+    "skynews": { "rating": "center", "country": "United Kingdom", "ownership": "Sky Group (Comcast)" },
+    "france24": { "rating": "center", "country": "France", "ownership": "France Médias Monde (state-funded)" },
+    "npr": { "rating": "lean-left", "country": "United States", "ownership": "Non-profit, public funding" },
+    "indianexpress": { "rating": "lean-left", "country": "India", "ownership": "Indian Express Group" },
+    "irna": { "rating": "right", "country": "Iran", "ownership": "State media" },
+    "mehrnews": { "rating": "right", "country": "Iran", "ownership": "State-aligned" },
+    "thenews": { "rating": "center", "country": "Pakistan", "ownership": "Jang Group" },
+    "dohanews": { "rating": "center", "country": "Qatar", "ownership": "Independent" },
+    "almonitor": { "rating": "lean-left", "country": "United States (Middle East focus)", "ownership": "Independent" },
+    "thenational": { "rating": "center", "country": "United Arab Emirates", "ownership": "International Media Investments" },
+    "yonhap": { "rating": "center", "country": "South Korea", "ownership": "National news agency" },
+    "anadolu": { "rating": "lean-right", "country": "Turkey", "ownership": "State news agency" },
+    "dailynewsegypt": { "rating": "center", "country": "Egypt", "ownership": "Independent" },
+    "allafrica": { "rating": "center", "country": "Pan-Africa (US-based)", "ownership": "Independent aggregator" },
+    "tass": { "rating": "right", "country": "Russia", "ownership": "State news agency" },
+    "globaltimes": { "rating": "right", "country": "China", "ownership": "People's Daily (state)" },
+    "ecns": { "rating": "lean-right", "country": "China", "ownership": "State news service" }
+  }
+}

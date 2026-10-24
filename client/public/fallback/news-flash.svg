@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#92400e"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="400" cy="150" r="26" fill="#ffffff"/>
+  <text x="400" y="300" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="middle">NEWS FLASH</text>
+</svg>

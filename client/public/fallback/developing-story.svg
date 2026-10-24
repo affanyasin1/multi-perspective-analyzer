@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4c1d95"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <line x1="80" y1="370" x2="720" y2="370" stroke="#ffffff" stroke-opacity="0.4" stroke-width="3"/>
+  <text x="400" y="250" font-family="Georgia, serif" font-size="58" font-weight="bold" fill="#ffffff" text-anchor="middle">DEVELOPING STORY</text>
+</svg>

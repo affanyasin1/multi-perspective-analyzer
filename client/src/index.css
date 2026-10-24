@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-serif;
+}
+
+.newspaper-rule {
+  border-top: 2px solid theme('colors.ink');
+  border-bottom: 1px solid theme('colors.ink');
+}
+
+/* Chameleon mascot — eyelid blink */
+.chameleon-lid {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: chameleon-blink 2s ease-in-out infinite;
+}
+
+@keyframes chameleon-blink {
+  0%, 90%, 100% {
+    transform: scaleY(0.08);
+  }
+  93%, 96% {
+    transform: scaleY(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chameleon-lid {
+    animation: none;
+  }
+}
+
+/* Floating pet — tuck while scrolling, bounce while refreshing */
+.pet-tucked {
+  opacity: 0.35;
+  transform: scale(0.8);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.pet-busy {
+  animation: pet-bounce 0.7s ease-in-out infinite;
+}
+
+@keyframes pet-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pet-busy {
+    animation: none;
+  }
+}
+
+/* Agent faces — blink + working bob */
+.agent-lid {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: agent-blink 4s ease-in-out infinite;
+}
+
+@keyframes agent-blink {
+  0%, 90%, 100% {
+    transform: scaleY(0.1);
+  }
+  93%, 96% {
+    transform: scaleY(1);
+  }
+}
+
+.agent-bob {
+  animation: agent-bob 0.8s ease-in-out infinite;
+}
+
+@keyframes agent-bob {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.agent-idle {
+  animation: agent-sway 3.5s ease-in-out infinite;
+}
+
+@keyframes agent-sway {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+.agent-pupil {
+  animation: agent-look 6s ease-in-out infinite;
+}
+
+@keyframes agent-look {
+  0%, 25%, 75%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  62.5% {
+    transform: translateX(-2px);
+  }
+}
+
+.agent-wander-1 {
+  animation: wander-1 9s ease-in-out infinite;
+}
+
+@keyframes wander-1 {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(16px, -8px); }
+  50% { transform: translate(-6px, 10px); }
+  75% { transform: translate(-14px, -4px); }
+}
+
+.agent-wander-2 {
+  animation: wander-2 11s ease-in-out infinite;
+}
+
+@keyframes wander-2 {
+  0%, 100% { transform: translate(0, 0); }
+  30% { transform: translate(-16px, 10px); }
+  60% { transform: translate(12px, -12px); }
+}
+
+.agent-wander-3 {
+  animation: wander-3 13s ease-in-out infinite;
+}
+
+@keyframes wander-3 {
+  0%, 100% { transform: translate(0, 0); }
+  33% { transform: translate(14px, 8px); }
+  66% { transform: translate(-12px, -14px); }
+}
+
+.agent-sleep {
+  animation: sleep-breathe 4s ease-in-out infinite;
+}
+
+@keyframes sleep-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(0.96); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .agent-lid,
+  .agent-bob,
+  .agent-idle,
+  .agent-pupil,
+  .agent-wander-1,
+  .agent-wander-2,
+  .agent-wander-3,
+  .agent-sleep {
+    animation: none;
+  }
+}
