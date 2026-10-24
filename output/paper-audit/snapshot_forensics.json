@@ -1,0 +1,1436 @@
+{
+  "archive_sha256": "fd083c34c7aeb68cc5a56abc5d602982ec2d1843b8e2a9ac2dd54fbae107968d",
+  "rows": 3633,
+  "unique_urls": 2859,
+  "url_multiplicity": {
+    "1": 2087,
+    "2": 770,
+    "3": 2
+  },
+  "duplicate_url_groups": 772,
+  "excess_url_rows": 774,
+  "schema_groups": [
+    {
+      "first_line": 1,
+      "first_crawled_at": "2026-10-10T21:24:25.429Z",
+      "keys": [
+        "analysis",
+        "body_incomplete",
+        "body_text",
+        "crawled_at",
+        "feed_section",
+        "headline",
+        "image_url",
+        "outlet",
+        "published_at",
+        "summary",
+        "url"
+      ],
+      "last_line": 547,
+      "last_crawled_at": "2026-10-11T10:25:14.540Z",
+      "rows": 547,
+      "unique_urls": 533,
+      "provider_counts": {
+        "None": 547
+      }
+    },
+    {
+      "first_line": 548,
+      "first_crawled_at": "2026-10-11T10:37:42.549Z",
+      "keys": [
+        "analysis",
+        "analysis_model",
+        "analysis_provider",
+        "body_incomplete",
+        "body_text",
+        "crawled_at",
+        "feed_section",
+        "headline",
+        "image_url",
+        "outlet",
+        "published_at",
+        "summary",
+        "url"
+      ],
+      "last_line": 1621,
+      "last_crawled_at": "2026-10-11T20:48:10.986Z",
+      "rows": 1074,
+      "unique_urls": 704,
+      "provider_counts": {
+        "deepseek": 84,
+        "": 990
+      }
+    },
+    {
+      "first_line": 1622,
+      "first_crawled_at": "2026-10-11T21:17:33.774Z",
+      "keys": [
+        "analysis",
+        "analysis_model",
+        "analysis_provider",
+        "analysis_status",
+        "body_incomplete",
+        "body_text",
+        "crawled_at",
+        "feed_section",
+        "headline",
+        "image_url",
+        "outlet",
+        "published_at",
+        "source_count",
+        "summary",
+        "url"
+      ],
+      "last_line": 2075,
+      "last_crawled_at": "2026-10-12T22:50:11.119Z",
+      "rows": 454,
+      "unique_urls": 254,
+      "provider_counts": {
+        "deepseek": 353,
+        "": 101
+      }
+    },
+    {
+      "first_line": 2076,
+      "first_crawled_at": "2026-10-12T23:48:10.510Z",
+      "keys": [
+        "analysis",
+        "analysis_model",
+        "analysis_provider",
+        "analysis_status",
+        "body_incomplete",
+        "body_text",
+        "crawled_at",
+        "feed_section",
+        "headline",
+        "image_url",
+        "outlet",
+        "published_at",
+        "source_count",
+        "summary",
+        "url",
+        "verification",
+        "verification_score"
+      ],
+      "last_line": 3633,
+      "last_crawled_at": "2026-10-20T18:12:13.101Z",
+      "rows": 1558,
+      "unique_urls": 1368,
+      "provider_counts": {
+        "deepseek": 1003,
+        "mock": 555
+      }
+    }
+  ],
+  "natural_crawl_boundaries": 232,
+  "fixed_sensitivity_branches": 8,
+  "complete_table2_count_vector_matches": [],
+  "simultaneous_paper_count_matches_at_natural_boundaries": [],
+  "diagnostic_prefixes": [
+    {
+      "end_line": 3168,
+      "last_crawled_at": "2026-10-18T17:14:22.744Z",
+      "natural_crawl_boundary": true,
+      "unique_urls": 2394,
+      "deepseek_rows": 1323,
+      "real_scored_rows": 847,
+      "mean_score": 0.520599173553719
+    },
+    {
+      "end_line": 3174,
+      "last_crawled_at": "2026-10-18T18:14:21.028Z",
+      "natural_crawl_boundary": false,
+      "unique_urls": 2400,
+      "deepseek_rows": 1329,
+      "real_scored_rows": 853,
+      "mean_score": 0.5194284876905041
+    },
+    {
+      "end_line": 3175,
+      "last_crawled_at": "2026-10-18T18:14:21.028Z",
+      "natural_crawl_boundary": false,
+      "unique_urls": 2401,
+      "deepseek_rows": 1330,
+      "real_scored_rows": 854,
+      "mean_score": 0.5191129976580796
+    },
+    {
+      "end_line": 3177,
+      "last_crawled_at": "2026-10-18T18:14:21.028Z",
+      "natural_crawl_boundary": false,
+      "unique_urls": 2403,
+      "deepseek_rows": 1332,
+      "real_scored_rows": 856,
+      "mean_score": 0.5184842289719626
+    },
+    {
+      "end_line": 3184,
+      "last_crawled_at": "2026-10-18T18:14:21.028Z",
+      "natural_crawl_boundary": true,
+      "unique_urls": 2410,
+      "deepseek_rows": 1339,
+      "real_scored_rows": 863,
+      "mean_score": 0.5194513325608343
+    },
+    {
+      "end_line": 3633,
+      "last_crawled_at": "2026-10-20T18:12:13.101Z",
+      "natural_crawl_boundary": true,
+      "unique_urls": 2859,
+      "deepseek_rows": 1440,
+      "real_scored_rows": 946,
+      "mean_score": 0.51696955602537
+    }
+  ],
+  "irna_analyzed_records": [
+    {
+      "line": 56,
+      "provider": null,
+      "model": null,
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86288804/Iran-and-Russia-discuss-opportunities-for-oil-exploration-cooperation",
+      "crawled_at": "2026-10-10T21:24:25.429Z"
+    },
+    {
+      "line": 59,
+      "provider": null,
+      "model": null,
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86288788/Gunman-behind-Faryab-police-officer-s-assassination-killed-in",
+      "crawled_at": "2026-10-10T21:24:25.429Z"
+    },
+    {
+      "line": 63,
+      "provider": null,
+      "model": null,
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86288715/Terrorist-acts-will-not-shake-the-resolve-of-Iranian-security",
+      "crawled_at": "2026-10-10T21:24:25.429Z"
+    },
+    {
+      "line": 70,
+      "provider": null,
+      "model": null,
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86288456/Speaker-Ghalibaf-vows-justice-for-slain-police-official-in-southeast",
+      "crawled_at": "2026-10-10T21:24:25.429Z"
+    },
+    {
+      "line": 74,
+      "provider": null,
+      "model": null,
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86288259/US-problem-is-with-Iran-s-civilization-Velayati",
+      "crawled_at": "2026-10-10T21:24:25.429Z"
+    },
+    {
+      "line": 81,
+      "provider": null,
+      "model": null,
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86287985/You-will-kneel-before-Iran-Parliament-speaker",
+      "crawled_at": "2026-10-10T21:24:25.429Z"
+    },
+    {
+      "line": 501,
+      "provider": null,
+      "model": null,
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86289159/Deputy-FM-pays-tribute-to-martyrs-of-Minab",
+      "crawled_at": "2026-10-11T08:48:08.028Z"
+    },
+    {
+      "line": 516,
+      "provider": null,
+      "model": null,
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86289241/Iran-pursuing-legal-action-over-Minab-school-attack-Deputy-FM",
+      "crawled_at": "2026-10-11T09:31:11.383Z"
+    },
+    {
+      "line": 517,
+      "provider": null,
+      "model": null,
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86289159/Deputy-FM-pays-tribute-to-martyrs-of-Minab",
+      "crawled_at": "2026-10-11T09:31:11.383Z"
+    },
+    {
+      "line": 587,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86289587/Pezeshkian-emphasizes-continued-regional-consultations-in-phone",
+      "crawled_at": "2026-10-11T11:48:10.517Z"
+    },
+    {
+      "line": 1435,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86289688/Iran-ready-to-strike-enemy-vessels-again-if-attacked-Army-commander",
+      "crawled_at": "2026-10-11T13:36:05.893Z"
+    },
+    {
+      "line": 1539,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86289861/Security-chief-US-response-to-Iran-s-7-conditions-insufficient",
+      "crawled_at": "2026-10-11T17:35:09.906Z"
+    },
+    {
+      "line": 1557,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86289902/Supertanker-explodes-after-hitting-mine-in-unauthorized-Hormuz",
+      "crawled_at": "2026-10-11T18:35:10.098Z"
+    },
+    {
+      "line": 1688,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290050/Iranian-interior-minister-departs-for-Azerbaijan",
+      "crawled_at": "2026-10-12T05:15:25.672Z"
+    },
+    {
+      "line": 1703,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290100/Third-oil-tanker-catches-fire-after-hitting-sea-mine-in-Strait",
+      "crawled_at": "2026-10-12T06:17:23.441Z"
+    },
+    {
+      "line": 1709,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/photo/86290080/In-photos-Tehran-International-Short-Film-Festival-press-conference",
+      "crawled_at": "2026-10-12T06:49:08.416Z"
+    },
+    {
+      "line": 1716,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/photo/86290080/In-photos-Tehran-International-Short-Film-Festival-press-conference",
+      "crawled_at": "2026-10-12T07:15:29.905Z"
+    },
+    {
+      "line": 1852,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290626/Israel-is-committing-genocide-in-Gaza-with-US-complicity-Pezeshkian",
+      "crawled_at": "2026-10-12T12:49:44.059Z"
+    },
+    {
+      "line": 1872,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290626/Israel-is-committing-genocide-in-Gaza-with-US-complicity-Pezeshkian",
+      "crawled_at": "2026-10-12T12:50:02.981Z"
+    },
+    {
+      "line": 1977,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290798/Iran-ready-for-diplomacy-and-war-deputy-foreign-minister-says",
+      "crawled_at": "2026-10-12T17:48:27.881Z"
+    },
+    {
+      "line": 1981,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290953/Exclusive-Iran-s-ambassador-rejects-allegations-of-Tehran-s",
+      "crawled_at": "2026-10-12T17:48:27.881Z"
+    },
+    {
+      "line": 1994,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290798/Iran-ready-for-diplomacy-and-war-deputy-foreign-minister-says",
+      "crawled_at": "2026-10-12T17:49:51.728Z"
+    },
+    {
+      "line": 1998,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290953/Exclusive-Iran-s-ambassador-rejects-allegations-of-Tehran-s",
+      "crawled_at": "2026-10-12T17:49:51.728Z"
+    },
+    {
+      "line": 2029,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290984/Araghchi-discusses-regional-developments-in-phone-call-with-Iraqi",
+      "crawled_at": "2026-10-12T19:49:52.220Z"
+    },
+    {
+      "line": 2031,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291010/Iran-condemns-UK-s-baseless-claims-over-Fairford-air-base-incident",
+      "crawled_at": "2026-10-12T19:49:52.220Z"
+    },
+    {
+      "line": 2036,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290984/Araghchi-discusses-regional-developments-in-phone-call-with-Iraqi",
+      "crawled_at": "2026-10-12T19:50:18.352Z"
+    },
+    {
+      "line": 2038,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291010/Iran-condemns-UK-s-baseless-claims-over-Fairford-air-base-incident",
+      "crawled_at": "2026-10-12T19:50:18.352Z"
+    },
+    {
+      "line": 2055,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290048/IRGC-warns-vessels-violating-in-Strait-of-Hormuz",
+      "crawled_at": "2026-10-12T21:48:09.535Z"
+    },
+    {
+      "line": 2062,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290048/IRGC-warns-vessels-violating-in-Strait-of-Hormuz",
+      "crawled_at": "2026-10-12T21:48:19.501Z"
+    },
+    {
+      "line": 2189,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291487/Six-Royan-Institute-researchers-named-among-the-world-s-top-2",
+      "crawled_at": "2026-10-13T11:04:21.094Z"
+    },
+    {
+      "line": 2192,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291006/Holding-Iran-s-enemies-accountable-an-indisputable-necessity",
+      "crawled_at": "2026-10-13T11:04:21.094Z"
+    },
+    {
+      "line": 2194,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290610/Exclusive-Iranian-envoy-condemns-Rubio-s-remarks-on-Iranian",
+      "crawled_at": "2026-10-13T11:04:21.094Z"
+    },
+    {
+      "line": 2195,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291157/Iran-remains-open-to-diplomacy-but-well-prepared-to-defend-itself",
+      "crawled_at": "2026-10-13T11:04:21.094Z"
+    },
+    {
+      "line": 2205,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291215/US-failed-to-rally-allies-in-war-against-Iran-Deputy-speaker",
+      "crawled_at": "2026-10-13T11:04:21.094Z"
+    },
+    {
+      "line": 2210,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291487/Six-Royan-Institute-researchers-named-among-the-world-s-top-2",
+      "crawled_at": "2026-10-13T11:04:40.515Z"
+    },
+    {
+      "line": 2213,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291006/Holding-Iran-s-enemies-accountable-an-indisputable-necessity",
+      "crawled_at": "2026-10-13T11:04:40.515Z"
+    },
+    {
+      "line": 2215,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86290610/Exclusive-Iranian-envoy-condemns-Rubio-s-remarks-on-Iranian",
+      "crawled_at": "2026-10-13T11:04:40.515Z"
+    },
+    {
+      "line": 2216,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291157/Iran-remains-open-to-diplomacy-but-well-prepared-to-defend-itself",
+      "crawled_at": "2026-10-13T11:04:40.515Z"
+    },
+    {
+      "line": 2226,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291215/US-failed-to-rally-allies-in-war-against-Iran-Deputy-speaker",
+      "crawled_at": "2026-10-13T11:04:40.515Z"
+    },
+    {
+      "line": 2228,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291673/Iran-Egypt-foreign-ministers-discuss-Yemen-developments",
+      "crawled_at": "2026-10-13T11:49:27.825Z"
+    },
+    {
+      "line": 2241,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291673/Iran-Egypt-foreign-ministers-discuss-Yemen-developments",
+      "crawled_at": "2026-10-13T12:02:40.103Z"
+    },
+    {
+      "line": 2266,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291981/Iranian-Navy-identifies-oil-tanker-that-caught-fire-in-Strait",
+      "crawled_at": "2026-10-13T19:53:21.790Z"
+    },
+    {
+      "line": 2270,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291855/New-US-attack-on-Iran-will-have-far-reaching-consequences-Deputy",
+      "crawled_at": "2026-10-13T19:53:21.790Z"
+    },
+    {
+      "line": 2324,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291981/Iranian-Navy-identifies-oil-tanker-that-caught-fire-in-Strait",
+      "crawled_at": "2026-10-13T19:53:19.009Z"
+    },
+    {
+      "line": 2328,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86291855/New-US-attack-on-Iran-will-have-far-reaching-consequences-Deputy",
+      "crawled_at": "2026-10-13T19:53:19.009Z"
+    },
+    {
+      "line": 2468,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86292179/Iran-Oman-foreign-ministers-discuss-Yemen-developments",
+      "crawled_at": "2026-10-14T05:50:21.421Z"
+    },
+    {
+      "line": 2470,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86291602/Iran-on-par-with-developed-nations-in-nuclear-science-AEOI-chief",
+      "crawled_at": "2026-10-14T05:50:21.421Z"
+    },
+    {
+      "line": 2479,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86292297/Envoys-rejects-Trump-s-allegations-on-destruction-of-US-cities",
+      "crawled_at": "2026-10-14T06:50:25.105Z"
+    },
+    {
+      "line": 2482,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/photo/86292242/In-photos-Iran-honors-Red-Crescent-s-first-responders",
+      "crawled_at": "2026-10-14T06:50:25.105Z"
+    },
+    {
+      "line": 2486,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86292363/Exclusive-Analyst-says-US-Iran-tensions-stem-from-regional",
+      "crawled_at": "2026-10-14T07:50:27.239Z"
+    },
+    {
+      "line": 2519,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86292594/Iran-eyes-Kenya-as-strategic-gateway-to-African-markets-Official",
+      "crawled_at": "2026-10-14T09:49:33.552Z"
+    },
+    {
+      "line": 2529,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86292706/Ship-carrying-2-500-containers-hits-mine-sinks-south-of-Strait",
+      "crawled_at": "2026-10-14T10:48:33.400Z"
+    },
+    {
+      "line": 2534,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86292677/CBI-chief-rejects-claims-of-Iranian-economic-collapse-at-IMF",
+      "crawled_at": "2026-10-14T10:48:33.400Z"
+    },
+    {
+      "line": 2554,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86292692/Iran-s-Envoy-More-storms-await-Israel",
+      "crawled_at": "2026-10-14T11:49:33.752Z"
+    },
+    {
+      "line": 2597,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293244/Iranian-Army-spokesperson-US-facing-strategic-isolation",
+      "crawled_at": "2026-10-15T06:50:47.624Z"
+    },
+    {
+      "line": 2605,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293008/FM-Araghchi-stresses-need-to-end-Israeli-attacks-on-Lebanon",
+      "crawled_at": "2026-10-15T06:50:47.624Z"
+    },
+    {
+      "line": 2671,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293369/Iran-Strait-of-Hormuz-remains-closed-requires-coordination",
+      "crawled_at": "2026-10-15T09:07:32.226Z"
+    },
+    {
+      "line": 2673,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293303/Yemen-says-it-downed-Saudi-Typhoon-fighter",
+      "crawled_at": "2026-10-15T09:07:32.226Z"
+    },
+    {
+      "line": 2679,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293244/Iranian-Army-spokesperson-US-facing-strategic-isolation",
+      "crawled_at": "2026-10-15T09:07:32.226Z"
+    },
+    {
+      "line": 2681,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293156/Iran-must-fight-and-negotiate-to-establish-lasting-deterrence",
+      "crawled_at": "2026-10-15T09:07:32.226Z"
+    },
+    {
+      "line": 2692,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86292873/Gharibabadi-heads-to-Baku-for-CICA-summit",
+      "crawled_at": "2026-10-15T09:07:32.226Z"
+    },
+    {
+      "line": 2693,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293008/FM-Araghchi-stresses-need-to-end-Israeli-attacks-on-Lebanon",
+      "crawled_at": "2026-10-15T09:07:32.226Z"
+    },
+    {
+      "line": 2766,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293480/Iran-officials-congratulate-wrestlers-on-U23-World-Championships",
+      "crawled_at": "2026-10-15T11:30:43.309Z"
+    },
+    {
+      "line": 2769,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293436/Pezeshkian-Iran-will-not-allow-US-to-achieve-its-sinister-objectives",
+      "crawled_at": "2026-10-15T11:30:43.309Z"
+    },
+    {
+      "line": 2794,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293899/President-Pezeshkian-arrives-in-Armenia",
+      "crawled_at": "2026-10-16T06:18:33.664Z"
+    },
+    {
+      "line": 2800,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293793/Baqaei-British-government-cannot-conceal-its-destructive-role",
+      "crawled_at": "2026-10-16T06:18:33.664Z"
+    },
+    {
+      "line": 2815,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293701/Army-Navy-spots-burning-oil-tanker-in-restricted-area-of-Strait",
+      "crawled_at": "2026-10-16T06:18:33.664Z"
+    },
+    {
+      "line": 2860,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293949/Iran-condemns-Colombia-s-action-to-open-embassy-in-occupied-al-Quds",
+      "crawled_at": "2026-10-16T08:19:19.182Z"
+    },
+    {
+      "line": 2863,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86293921/Strait-of-Hormuz-to-remain-closed-until-Iran-s-rights-are-respected",
+      "crawled_at": "2026-10-16T08:19:19.182Z"
+    },
+    {
+      "line": 2884,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294536/Lavrov-to-visit-Tehran-in-coming-days",
+      "crawled_at": "2026-10-17T06:12:27.465Z"
+    },
+    {
+      "line": 2887,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294516/Oil-supertanker-catches-fire-after-striking-mine-in-Strait-of",
+      "crawled_at": "2026-10-17T06:12:27.465Z"
+    },
+    {
+      "line": 2893,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294574/Araghchi-arrives-in-Baghdad-to-attend-52nd-OIC-session",
+      "crawled_at": "2026-10-17T06:12:27.465Z"
+    },
+    {
+      "line": 2909,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294297/President-Pezeshkian-arrives-in-Tehran",
+      "crawled_at": "2026-10-17T06:12:27.465Z"
+    },
+    {
+      "line": 2910,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294243/President-Pezeshkian-leaves-Yerevan-for-Tehran",
+      "crawled_at": "2026-10-17T06:12:27.465Z"
+    },
+    {
+      "line": 2914,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294120/Iranian-president-Georgian-PM-discuss-bilateral-ties",
+      "crawled_at": "2026-10-17T06:12:27.465Z"
+    },
+    {
+      "line": 2916,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294199/Army-spokesman-vows-new-plans-to-drive-American-vessels-farther",
+      "crawled_at": "2026-10-17T06:12:27.465Z"
+    },
+    {
+      "line": 2918,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294247/Iranian-Navy-spots-oil-tanker-on-fire-in-Strait-of-Hormuz",
+      "crawled_at": "2026-10-17T06:12:27.465Z"
+    },
+    {
+      "line": 2926,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294565/Iran-urges-UNSC-to-act-decisively-to-compel-Israel-to-fulfill",
+      "crawled_at": "2026-10-17T06:12:27.465Z"
+    },
+    {
+      "line": 2963,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294329/Iran-envoy-Vietnam-TV-chief-discuss-media-cooperation",
+      "crawled_at": "2026-10-17T06:12:27.465Z"
+    },
+    {
+      "line": 2964,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294313/Hamburg-court-anti-Iran-allegations-baseless-invalid-Embassy",
+      "crawled_at": "2026-10-17T06:12:27.465Z"
+    },
+    {
+      "line": 2971,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294651/Iran-ready-to-help-resolve-Saudi-Yemen-issues-Baqaei",
+      "crawled_at": "2026-10-17T08:12:29.854Z"
+    },
+    {
+      "line": 2972,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294722/Iran-s-missile-power-has-changed-equations-Acting-defense-minister",
+      "crawled_at": "2026-10-17T08:12:29.854Z"
+    },
+    {
+      "line": 2975,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294687/Iran-s-road-minister-proposes-new-transit-routes-infrastructure",
+      "crawled_at": "2026-10-17T08:12:29.854Z"
+    },
+    {
+      "line": 2978,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294795/Exclusive-Envoy-Iran-calls-for-regional-security-without-foreign",
+      "crawled_at": "2026-10-17T09:14:28.742Z"
+    },
+    {
+      "line": 2984,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294918/Iran-Egypt-FMs-meet-in-Baghdad",
+      "crawled_at": "2026-10-17T10:12:32.279Z"
+    },
+    {
+      "line": 2985,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294931/Baghdad-hosts-52nd-OIC-foreign-ministers-meeting-with-Iran-FM",
+      "crawled_at": "2026-10-17T10:12:32.279Z"
+    },
+    {
+      "line": 2994,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295073/Araghchi-meets-with-Libya-s-top-diplomat-in-Baghdad",
+      "crawled_at": "2026-10-17T12:12:40.554Z"
+    },
+    {
+      "line": 3007,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295168/Leader-congratulates-Iran-s-U23-Greco-Roman-wrestling-team-on",
+      "crawled_at": "2026-10-17T13:12:38.594Z"
+    },
+    {
+      "line": 3015,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295182/Iranian-Turkish-foreign-ministers-meet-on-sidelines-of-OIC-summit",
+      "crawled_at": "2026-10-17T14:12:35.355Z"
+    },
+    {
+      "line": 3018,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295178/Second-supertanker-explodes-after-hitting-mine-in-Strait-of-Hormuz",
+      "crawled_at": "2026-10-17T14:12:35.355Z"
+    },
+    {
+      "line": 3022,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295264/Iranian-Lebanese-FM-hold-talks-on-sidelines-of-OIC-summit-in",
+      "crawled_at": "2026-10-17T15:13:10.491Z"
+    },
+    {
+      "line": 3026,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295149/Iran-rejects-pressure-remains-open-to-dialogue-Araghchi",
+      "crawled_at": "2026-10-17T15:13:10.491Z"
+    },
+    {
+      "line": 3037,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295309/Araghchi-meets-senior-Algerian-diplomat-in-Baghdad",
+      "crawled_at": "2026-10-17T17:12:12.770Z"
+    },
+    {
+      "line": 3039,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295060/Iran-opens-3rd-Specialized-School-of-Standards-in-Nuclear-Industry",
+      "crawled_at": "2026-10-17T17:12:12.770Z"
+    },
+    {
+      "line": 3052,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86294695/Iran-says-all-front-ceasefire-essential-to-ending-regional-war",
+      "crawled_at": "2026-10-17T19:11:53.292Z"
+    },
+    {
+      "line": 3057,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295416/Baqaei-Disruption-in-operation-of-Iran-Pakistan-border-crossings",
+      "crawled_at": "2026-10-17T20:11:57.582Z"
+    },
+    {
+      "line": 3064,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295347/Iranian-official-meets-president-of-Asian-Cultural-Heritage-Union",
+      "crawled_at": "2026-10-17T22:11:58.668Z"
+    },
+    {
+      "line": 3084,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295521/Araghchi-Iraqi-PM-hold-talks-on-sidelines-of-OIC-summit-in-Baghdad",
+      "crawled_at": "2026-10-18T06:14:20.740Z"
+    },
+    {
+      "line": 3085,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295551/Iranian-freestyle-wrestlers-claim-2-golds-3-bronzes-at-U23-World",
+      "crawled_at": "2026-10-18T06:14:20.740Z"
+    },
+    {
+      "line": 3102,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295734/Iran-s-Dogharoun-accounts-for-52-of-cargo-transit-to-Afghanistan",
+      "crawled_at": "2026-10-18T08:12:25.915Z"
+    },
+    {
+      "line": 3103,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/photo/86295883/Pezeshkian-backs-defense-minister-nominee-says-expertise-can",
+      "crawled_at": "2026-10-18T09:12:31.566Z"
+    },
+    {
+      "line": 3104,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295908/Akhlaghi-becomes-Iran-s-new-defense-minister",
+      "crawled_at": "2026-10-18T09:12:31.566Z"
+    },
+    {
+      "line": 3106,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295733/Iranian-parliament-weighs-defense-minister-nominee-s-credentials",
+      "crawled_at": "2026-10-18T09:12:31.566Z"
+    },
+    {
+      "line": 3107,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295393/Defense-Minister-designate-meets-Chief-of-General-Staff-of-the",
+      "crawled_at": "2026-10-18T09:12:31.566Z"
+    },
+    {
+      "line": 3112,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295950/Iran-ready-for-more-devastating-response-to-any-new-US-adventurism",
+      "crawled_at": "2026-10-18T10:12:27.443Z"
+    },
+    {
+      "line": 3115,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295883/Pezeshkian-backs-defense-minister-nominee-says-expertise-can",
+      "crawled_at": "2026-10-18T10:12:27.443Z"
+    },
+    {
+      "line": 3127,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296062/Araghchi-calls-for-balanced-OIC-resolution-on-Yemen",
+      "crawled_at": "2026-10-18T11:12:31.157Z"
+    },
+    {
+      "line": 3146,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296210/Iranian-Pakistani-FMs-discuss-regional-developments-de-escalation",
+      "crawled_at": "2026-10-18T16:12:41.932Z"
+    },
+    {
+      "line": 3149,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296330/US-miscalculated-Iran-s-resilience-in-war-Basij-chief-says",
+      "crawled_at": "2026-10-18T16:12:41.932Z"
+    },
+    {
+      "line": 3171,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296178/Iran-no-longer-needs-to-import-gasoline-President",
+      "crawled_at": "2026-10-18T18:14:21.028Z"
+    },
+    {
+      "line": 3174,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296438/Bilateral-ties-regional-developments-top-agenda-of-Lavrov-s",
+      "crawled_at": "2026-10-18T18:14:21.028Z"
+    },
+    {
+      "line": 3175,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296325/Russian-foreign-minister-to-visit-Tehran-on-Monday-Iranian-envoy",
+      "crawled_at": "2026-10-18T18:14:21.028Z"
+    },
+    {
+      "line": 3176,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296467/A-trick-may-turn-against-its-designer-Iran-rebukes-Macron",
+      "crawled_at": "2026-10-18T18:14:21.028Z"
+    },
+    {
+      "line": 3191,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296519/Iran-Egypt-FMs-discuss-regional-de-escalation-efforts-in-phone",
+      "crawled_at": "2026-10-18T20:12:22.219Z"
+    },
+    {
+      "line": 3194,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296512/Iran-counting-down-for-next-enemy-miscalculation-Armed-Forces",
+      "crawled_at": "2026-10-18T20:12:22.219Z"
+    },
+    {
+      "line": 3198,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296491/Ghalibaf-warns-regional-states-against-assisting-AI-firms-linked",
+      "crawled_at": "2026-10-18T20:12:22.219Z"
+    },
+    {
+      "line": 3231,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86295995/Defense-minister-undermines-Trump-s-new-anti-Iran-threats",
+      "crawled_at": "2026-10-19T04:12:40.821Z"
+    },
+    {
+      "line": 3245,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296679/IRGC-Navy-Violating-oil-tanker-hits-mine-in-Strait-of-Hormuz",
+      "crawled_at": "2026-10-19T06:12:13.063Z"
+    },
+    {
+      "line": 3246,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296670/We-have-unfinished-jobs-too-Araghchi-to-Israeli-PM-s-rhetoric",
+      "crawled_at": "2026-10-19T06:12:13.063Z"
+    },
+    {
+      "line": 3248,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296688/It-s-too-late-Mr-President-Araghchi-mocks-Macron-for-shifting",
+      "crawled_at": "2026-10-19T06:12:13.063Z"
+    },
+    {
+      "line": 3251,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296662/Iran-wins-U23-world-wrestling-title-in-US",
+      "crawled_at": "2026-10-19T06:12:13.063Z"
+    },
+    {
+      "line": 3279,
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+      "rating": "not-determinable",
+      "url": "https://en.irna.ir/news/86296902/Iran-s-U23-wrestling-triumph-in-US-reflects-national-strength",
+      "crawled_at": "2026-10-19T08:12:25.200Z"
+    },
+    {
+      "line": 3292,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86297005/Leader-congratulates-U23-freestyle-wrestlers-on-world-title",
+      "crawled_at": "2026-10-19T09:13:08.723Z"
+    },
+    {
+      "line": 3293,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86296946/Pezeshkian-congratulates-Iran-s-U23-freestyle-wrestling-team",
+      "crawled_at": "2026-10-19T09:13:08.723Z"
+    },
+    {
+      "line": 3304,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86297115/Iran-s-VP-arrives-in-Tajikistan-for-SCO-meeting",
+      "crawled_at": "2026-10-19T10:13:08.212Z"
+    },
+    {
+      "line": 3307,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86296656/IRGC-warns-of-retaliation-against-attack-on-Iran-s-energy-infrastructure",
+      "crawled_at": "2026-10-19T10:13:08.212Z"
+    },
+    {
+      "line": 3312,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86297051/Chinese-envoy-Beijing-adopts-consistent-and-stable-policy-toward",
+      "crawled_at": "2026-10-19T10:13:08.212Z"
+    },
+    {
+      "line": 3334,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86297321/Iranian-and-Russian-foreign-ministers-hold-talks-in-Tehran",
+      "crawled_at": "2026-10-19T13:12:07.739Z"
+    },
+    {
+      "line": 3370,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86297436/FM-Araghchi-describes-talks-with-Russian-counterpart-as-productive",
+      "crawled_at": "2026-10-19T16:12:27.286Z"
+    },
+    {
+      "line": 3371,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86297449/Russian-PM-says-expanding-economic-ties-with-Iran-a-priority",
+      "crawled_at": "2026-10-19T16:12:27.286Z"
+    },
+    {
+      "line": 3380,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86297527/President-Pezeshkian-meets-Russian-FM-in-Tehran",
+      "crawled_at": "2026-10-19T17:12:30.337Z"
+    },
+    {
+      "line": 3382,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86297507/China-condemns-US-Israeli-attacks-on-Iran-opposes-unilateral",
+      "crawled_at": "2026-10-19T17:12:30.337Z"
+    },
+    {
+      "line": 3390,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86297566/Iran-summons-rotating-president-of-European-Union",
+      "crawled_at": "2026-10-19T18:12:24.321Z"
+    },
+    {
+      "line": 3412,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86297637/Major-General-Rezaei-stresses-Iran-s-determination-to-strengthen",
+      "crawled_at": "2026-10-19T23:11:55.466Z"
+    },
+    {
+      "line": 3414,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86297588/Iran-summons-German-ambassador-over-baseless-allegations",
+      "crawled_at": "2026-10-19T23:11:55.466Z"
+    },
+    {
+      "line": 3418,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86297620/Iranian-Foreign-Ministry-issues-warning-to-Iranians-regarding",
+      "crawled_at": "2026-10-19T23:11:55.466Z"
+    },
+    {
+      "line": 3422,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86297626/Iranian-and-Brazilian-FMs-call-for-continued-diplomatic-efforts",
+      "crawled_at": "2026-10-19T23:11:55.466Z"
+    },
+    {
+      "line": 3465,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86297781/Iran-Russia-closer-than-ever-in-history-of-ties-Araghchi",
+      "crawled_at": "2026-10-20T06:14:17.615Z"
+    },
+    {
+      "line": 3466,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/photo/86297812/In-photos-Iran-Russia-FMs-meeting-in-Tehran",
+      "crawled_at": "2026-10-20T06:14:17.615Z"
+    },
+    {
+      "line": 3468,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86297831/Putin-Pezeshkian-to-continue-consultations-at-Moscow-gas-summit",
+      "crawled_at": "2026-10-20T06:14:17.615Z"
+    },
+    {
+      "line": 3471,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86297322/Iran-arrests-39-mercenaries-involved-in-insecurity-property",
+      "crawled_at": "2026-10-20T06:14:17.615Z"
+    },
+    {
+      "line": 3472,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86297740/Another-US-MQ-1-drone-downed-over-Strait-of-Hormuz",
+      "crawled_at": "2026-10-20T06:14:17.615Z"
+    },
+    {
+      "line": 3486,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86297854/Iran-warns-of-consequences-of-US-Israeli-unlawful-threats",
+      "crawled_at": "2026-10-20T07:13:05.300Z"
+    },
+    {
+      "line": 3504,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86298078/Pakistan-s-army-chief-departs-for-Tehran-Source",
+      "crawled_at": "2026-10-20T09:13:50.383Z"
+    },
+    {
+      "line": 3513,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86298085/Iran-blocks-inclusion-of-two-divisive-articles-on-Yemen-in",
+      "crawled_at": "2026-10-20T09:13:50.383Z"
+    },
+    {
+      "line": 3527,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86298169/Tehran-Baghdad-agree-on-expulsion-of-anti-Iran-separatist-terrorist",
+      "crawled_at": "2026-10-20T11:12:13.578Z"
+    },
+    {
+      "line": 3549,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86298358/Pakistani-Army-Chief-arrives-in-Tehran",
+      "crawled_at": "2026-10-20T12:12:32.253Z"
+    },
+    {
+      "line": 3551,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86298387/IRGC-Two-tanker-caught-fire-halted-in-Strait-of-Hormuz",
+      "crawled_at": "2026-10-20T12:12:32.253Z"
+    },
+    {
+      "line": 3561,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86298245/Envoy-urges-Iran-Iraq-to-shift-scientific-ties-from-student",
+      "crawled_at": "2026-10-20T12:12:32.253Z"
+    },
+    {
+      "line": 3569,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/photo/86298435/Araghchi-to-Macron-Listen-to-the-future-of-France",
+      "crawled_at": "2026-10-20T13:12:30.060Z"
+    },
+    {
+      "line": 3581,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86298491/Pakistan-to-continue-mediation-efforts-between-US-and-Iran-Deputy",
+      "crawled_at": "2026-10-20T14:12:29.146Z"
+    },
+    {
+      "line": 3586,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86298554/Iranian-shot-putter-wins-gold-in-Asian-Para-Games",
+      "crawled_at": "2026-10-20T15:14:20.473Z"
+    },
+    {
+      "line": 3589,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86298525/Pezeshkian-appoints-Ibn-al-Reza-as-presidential-adviser-on-defense",
+      "crawled_at": "2026-10-20T15:14:20.473Z"
+    },
+    {
+      "line": 3591,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86298454/Israeli-forces-commit-new-aggression-in-southern-Syria",
+      "crawled_at": "2026-10-20T15:14:20.473Z"
+    },
+    {
+      "line": 3592,
+      "provider": "mock",
+      "model": "",
+      "rating": "center",
+      "url": "https://en.irna.ir/news/86298562/Iran-VP-wraps-up-Tajikistan-visit-leaves-for-Tehran",
+      "crawled_at": "2026-10-20T15:14:20.473Z"
+    },
+    {
+      "line": 3624,
+      "provider": "mock",
+      "model": "",
+      "rating": "lean-left",
+      "url": "https://en.irna.ir/news/86298685/President-Pezeshkian-meets-Pakistani-Army-Chief",
+      "crawled_at": "2026-10-20T18:12:13.101Z"
+    }
+  ],
+  "caveat": "Absence of a match falsifies only tested extant-archive prefix hypotheses; it does not identify or disprove an unavailable historical snapshot."
+}

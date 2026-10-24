@@ -1,0 +1,90 @@
+{
+  "valid_object_rows": 3633,
+  "blank_lines": 0,
+  "malformed_lines": [],
+  "unique_exact_urls": 2859,
+  "duplicate_url_groups": 772,
+  "excess_url_records": 774,
+  "url_multiplicities": {
+    "1": 2087,
+    "2": 770,
+    "3": 2
+  },
+  "identical_full_records_excess": 0,
+  "analysis_present": 2036,
+  "analysis_absent": 1597,
+  "analysis_provider": {
+    "<missing>": 547,
+    "deepseek": 1440,
+    "": 1091,
+    "mock": 555
+  },
+  "analysis_status": {
+    "<missing>": 1621,
+    "done": 1911,
+    "failed": 101
+  },
+  "analysis_model": {
+    "<missing>": 547,
+    "deepseek-chat": 1440,
+    "": 1646
+  },
+  "outlet_rows": {
+    "france24": 301,
+    "skynews": 61,
+    "npr": 80,
+    "irna": 213,
+    "mehrnews": 247,
+    "indianexpress": 522,
+    "thenews": 50,
+    "dohanews": 23,
+    "almonitor": 239,
+    "thenational": 609,
+    "dailynewsegypt": 96,
+    "allafrica": 103,
+    "globaltimes": 100,
+    "ecns": 232,
+    "yonhap": 203,
+    "anadolu": 138,
+    "tass": 416
+  },
+  "unknown_outlets": [],
+  "bias_labels_in_analyses": {
+    "center": 1008,
+    "lean-right": 250,
+    "lean-left": 142,
+    "not-determinable": 613,
+    "right": 23
+  },
+  "missing_or_invalid_bias_labels": 0,
+  "schema_version_present": 0,
+  "prompt_hash_present": 0,
+  "temperature_present": 0,
+  "crawl_min": "2026-10-10T21:24:25.429Z",
+  "crawl_max": "2026-10-20T18:12:13.101Z",
+  "archive_order_time_reversals": 1,
+  "unique_url_analysis_signatures": 1980,
+  "deepseek_unique_url_analysis_signatures": 1386,
+  "unique_url_body_signatures": 2900,
+  "real_deepseek_analyses": {
+    "n_selected_records": 1440,
+    "n_analysis_records": 1440,
+    "n_unique_analysis_urls": 1099,
+    "n_scored_records": 946,
+    "n_unique_scored_urls": 813,
+    "coverage": 0.6569444444444444,
+    "coverage_denominator": "all selected records (analysis-only for analysis branches)",
+    "missing_score": 494,
+    "mean_per_record_score": 0.51696955602537,
+    "min_score": 0.0,
+    "max_score": 0.875,
+    "outside_0_1": 0,
+    "analyst_providers": {
+      "deepseek": 1440
+    },
+    "critic_providers": {
+      "deepseek": 946
+    }
+  },
+  "note": "Rows and stored analysis objects are observable; actual model-call counts are not reconstructible from URL deduped output records."
+}

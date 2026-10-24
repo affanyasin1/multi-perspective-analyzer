@@ -1,0 +1,229 @@
+{
+  "project_current_rows": {
+    "n_selected_records": 2036,
+    "n_analysis_records": 2036,
+    "n_unique_analysis_urls": 1666,
+    "n_scored_records": 956,
+    "n_unique_scored_urls": 823,
+    "coverage": 0.46954813359528486,
+    "coverage_denominator": "all selected records (analysis-only for analysis branches)",
+    "missing_score": 1080,
+    "mean_per_record_score": 0.5132617154811715,
+    "min_score": 0.0,
+    "max_score": 0.875,
+    "outside_0_1": 0,
+    "analyst_providers": {
+      "None": 41,
+      "deepseek": 1440,
+      "mock": 555
+    },
+    "critic_providers": {
+      "deepseek": 956
+    }
+  },
+  "deepseek_rows": {
+    "n_selected_records": 1440,
+    "n_analysis_records": 1440,
+    "n_unique_analysis_urls": 1099,
+    "n_scored_records": 946,
+    "n_unique_scored_urls": 813,
+    "coverage": 0.6569444444444444,
+    "coverage_denominator": "all selected records (analysis-only for analysis branches)",
+    "missing_score": 494,
+    "mean_per_record_score": 0.51696955602537,
+    "min_score": 0.0,
+    "max_score": 0.875,
+    "outside_0_1": 0,
+    "analyst_providers": {
+      "deepseek": 1440
+    },
+    "critic_providers": {
+      "deepseek": 946
+    }
+  },
+  "deepseek_done_rows": {
+    "n_selected_records": 1356,
+    "n_analysis_records": 1356,
+    "n_unique_analysis_urls": 1035,
+    "n_scored_records": 946,
+    "n_unique_scored_urls": 813,
+    "coverage": 0.6976401179941003,
+    "coverage_denominator": "all selected records (analysis-only for analysis branches)",
+    "missing_score": 410,
+    "mean_per_record_score": 0.51696955602537,
+    "min_score": 0.0,
+    "max_score": 0.875,
+    "outside_0_1": 0,
+    "analyst_providers": {
+      "deepseek": 1356
+    },
+    "critic_providers": {
+      "deepseek": 946
+    }
+  },
+  "deepseek_first_eligible_url": {
+    "n_selected_records": 1099,
+    "n_analysis_records": 1099,
+    "n_unique_analysis_urls": 1099,
+    "n_scored_records": 785,
+    "n_unique_scored_urls": 785,
+    "coverage": 0.7142857142857143,
+    "coverage_denominator": "all selected records (analysis-only for analysis branches)",
+    "missing_score": 314,
+    "mean_per_record_score": 0.5172197452229299,
+    "min_score": 0.0,
+    "max_score": 0.875,
+    "outside_0_1": 0,
+    "analyst_providers": {
+      "deepseek": 1099
+    },
+    "critic_providers": {
+      "deepseek": 785
+    }
+  },
+  "deepseek_last_eligible_url": {
+    "n_selected_records": 1099,
+    "n_analysis_records": 1099,
+    "n_unique_analysis_urls": 1099,
+    "n_scored_records": 811,
+    "n_unique_scored_urls": 811,
+    "coverage": 0.737943585077343,
+    "coverage_denominator": "all selected records (analysis-only for analysis branches)",
+    "missing_score": 288,
+    "mean_per_record_score": 0.514911467324291,
+    "min_score": 0.0,
+    "max_score": 0.875,
+    "outside_0_1": 0,
+    "analyst_providers": {
+      "deepseek": 1099
+    },
+    "critic_providers": {
+      "deepseek": 811
+    }
+  },
+  "archive_first_url_then_deepseek": {
+    "n_selected_records": 1069,
+    "n_analysis_records": 1069,
+    "n_unique_analysis_urls": 1069,
+    "n_scored_records": 759,
+    "n_unique_scored_urls": 759,
+    "coverage": 0.7100093545369505,
+    "coverage_denominator": "all selected records (analysis-only for analysis branches)",
+    "missing_score": 310,
+    "mean_per_record_score": 0.5145158102766798,
+    "min_score": 0.0,
+    "max_score": 0.875,
+    "outside_0_1": 0,
+    "analyst_providers": {
+      "deepseek": 1069
+    },
+    "critic_providers": {
+      "deepseek": 759
+    }
+  },
+  "archive_last_url_then_deepseek": {
+    "n_selected_records": 1085,
+    "n_analysis_records": 1085,
+    "n_unique_analysis_urls": 1085,
+    "n_scored_records": 811,
+    "n_unique_scored_urls": 811,
+    "coverage": 0.7474654377880184,
+    "coverage_denominator": "all selected records (analysis-only for analysis branches)",
+    "missing_score": 274,
+    "mean_per_record_score": 0.514911467324291,
+    "min_score": 0.0,
+    "max_score": 0.875,
+    "outside_0_1": 0,
+    "analyst_providers": {
+      "deepseek": 1085
+    },
+    "critic_providers": {
+      "deepseek": 811
+    }
+  },
+  "deepseek_ordinal_labels_only": {
+    "n_selected_records": 832,
+    "n_analysis_records": 832,
+    "n_unique_analysis_urls": 669,
+    "n_scored_records": 578,
+    "n_unique_scored_urls": 515,
+    "coverage": 0.6947115384615384,
+    "coverage_denominator": "all selected records (analysis-only for analysis branches)",
+    "missing_score": 254,
+    "mean_per_record_score": 0.5878304498269896,
+    "min_score": 0.25,
+    "max_score": 0.875,
+    "outside_0_1": 0,
+    "analyst_providers": {
+      "deepseek": 832
+    },
+    "critic_providers": {
+      "deepseek": 578
+    }
+  },
+  "all_archive_rows": {
+    "n_selected_records": 3633,
+    "n_analysis_records": 2036,
+    "n_unique_analysis_urls": 1666,
+    "n_scored_records": 956,
+    "n_unique_scored_urls": 823,
+    "coverage": 0.26314340765207817,
+    "coverage_denominator": "all selected records (analysis-only for analysis branches)",
+    "missing_score": 2677,
+    "mean_per_record_score": 0.5132617154811715,
+    "min_score": 0.0,
+    "max_score": 0.875,
+    "outside_0_1": 0,
+    "analyst_providers": {
+      "None": 547,
+      "deepseek": 1440,
+      "": 1091,
+      "mock": 555
+    },
+    "critic_providers": {
+      "deepseek": 956
+    }
+  },
+  "all_scored_rows": {
+    "n_selected_records": 956,
+    "n_analysis_records": 956,
+    "n_unique_analysis_urls": 823,
+    "n_scored_records": 956,
+    "n_unique_scored_urls": 823,
+    "coverage": 1.0,
+    "coverage_denominator": "all selected records (analysis-only for analysis branches)",
+    "missing_score": 0,
+    "mean_per_record_score": 0.5132617154811715,
+    "min_score": 0.0,
+    "max_score": 0.875,
+    "outside_0_1": 0,
+    "analyst_providers": {
+      "deepseek": 946,
+      "mock": 10
+    },
+    "critic_providers": {
+      "deepseek": 956
+    }
+  },
+  "quality": {
+    "non_numeric_or_nonfinite_lines": [],
+    "score_and_nested_score_disagree_lines": [],
+    "model_score_differs_from_field_entry_fraction_count": 839,
+    "deepseek_scored_unique_url_and_verification_content": 942,
+    "non_deepseek_analyst_scored_lines": [
+      2114,
+      2115,
+      2116,
+      2117,
+      2118,
+      2119,
+      2120,
+      2121,
+      2122,
+      2877
+    ],
+    "missing_score_reason": "No per-analysis attempt_id/error/time is archived; score absence alone cannot distinguish not attempted, failure, old schema or later scoring never appended.",
+    "paper_nominal_coverage_856_over_1330": 0.643609022556391,
+    "note": "Entry-count fractions are diagnostic only; score is generated directly by model, never recomputed or substituted here."
+  }
+}

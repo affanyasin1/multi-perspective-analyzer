@@ -1,0 +1,582 @@
+{
+  "source_pdf": "News_Agreegator_6___Shared-4.pdf",
+  "page_count": 16,
+  "extraction": "Ghostscript txtwrite + rendered PNG visual inspection",
+  "claims": [
+    {
+      "id": "P01",
+      "locations": "p1 摘要；p4 Figure2及§3.1；p5 Table1、Figure3；p10 §5 collection scope；p12 Figure9",
+      "kind": "配置范围",
+      "claim": "17 outlets",
+      "reported": 17,
+      "unit_or_note": "媒体"
+    },
+    {
+      "id": "P02",
+      "locations": "p4 §3.1；p10 §5 collection scope",
+      "kind": "配置范围",
+      "claim": "19 official RSS/API feeds",
+      "reported": 19,
+      "unit_or_note": "feeds"
+    },
+    {
+      "id": "P03",
+      "locations": "p4 §3.1",
+      "kind": "配置范围",
+      "claim": "Sky News、NPR各有world/politics feeds；其余为world feeds",
+      "reported": null,
+      "unit_or_note": "feed类型"
+    },
+    {
+      "id": "P04",
+      "locations": "p10 §5 archived records；p12 Figure8、Figure9",
+      "kind": "实际观测",
+      "claim": "3,174 archived article records / 3174 unique articles",
+      "reported": 3174,
+      "unit_or_note": "归档记录/界面称唯一文章"
+    },
+    {
+      "id": "P05",
+      "locations": "p1 摘要；p2 引言末；p10 §5 archived records；p11 verification subset",
+      "kind": "实际观测",
+      "claim": "1,330 real model analyses；§5 specifies DeepSeek",
+      "reported": 1330,
+      "unit_or_note": "文章/分析，待确定"
+    },
+    {
+      "id": "P06",
+      "locations": "p10 §5 archived records",
+      "kind": "推导数量",
+      "claim": "remaining outputs mock；3174−1330=1844",
+      "reported": 1844,
+      "unit_or_note": "推导mock记录，论文未直接打印1844"
+    },
+    {
+      "id": "P07",
+      "locations": "p1 摘要；p2 引言末；p10 §5 bias subset；p11 Table2及结果；p12 §6",
+      "kind": "实际观测/筛选",
+      "claim": "15 outlets with >=2 real-model analyzed articles",
+      "reported": 15,
+      "unit_or_note": "媒体"
+    },
+    {
+      "id": "P08",
+      "locations": "p11 Table2",
+      "kind": "表格观测",
+      "claim": "逐行n合计697；与1330差633",
+      "reported": 697,
+      "unit_or_note": "文章/分析待确定"
+    },
+    {
+      "id": "P09",
+      "locations": "p1 摘要；p11 bias结果；p11 Table2末行；p13 §7结论",
+      "kind": "计算结果",
+      "claim": "Pearson r=0.76",
+      "reported": 0.76,
+      "unit_or_note": "15家媒体，无加权公式"
+    },
+    {
+      "id": "P10",
+      "locations": "p1 摘要；p11 bias结果；p11 Table2末行",
+      "kind": "计算结果",
+      "claim": "Spearman rho=0.65",
+      "reported": 0.65,
+      "unit_or_note": "15家媒体"
+    },
+    {
+      "id": "P11",
+      "locations": "p11 §5 verification subset、verification rate",
+      "kind": "实际观测",
+      "claim": "856 scored real-model analyses",
+      "reported": 856,
+      "unit_or_note": "Critic评分分析"
+    },
+    {
+      "id": "P12",
+      "locations": "p1 摘要；p11 verification rate；p13 §7结论；p10 Figure7 UI",
+      "kind": "计算结果",
+      "claim": "mean verification score / rate=0.52",
+      "reported": 0.52,
+      "unit_or_note": "逐已评分分析平均"
+    },
+    {
+      "id": "P13",
+      "locations": "p1 摘要；p3 RelatedWork；p7 §3.4；p11 verification结果",
+      "kind": "方法解释",
+      "claim": "roughly half of analyst claims; fraction of grounded fields",
+      "reported": null,
+      "unit_or_note": "claim与field并非自动相同"
+    },
+    {
+      "id": "P14",
+      "locations": "p6 §3.2（延续p5）",
+      "kind": "实现参数",
+      "claim": "cross-outlet TF-IDF cosine>0.25 OR headline Jaccard>0.55",
+      "reported": {
+        "cosine": 0.25,
+        "jaccard": 0.55
+      },
+      "unit_or_note": "阈值，原文exceeds"
+    },
+    {
+      "id": "P15",
+      "locations": "p6 §3.2",
+      "kind": "实现参数",
+      "claim": "same-outlet stricter 0.45 / 0.70",
+      "reported": {
+        "cosine": 0.45,
+        "jaccard": 0.7
+      },
+      "unit_or_note": "阈值"
+    },
+    {
+      "id": "P16",
+      "locations": "p6 §3.2",
+      "kind": "实现参数",
+      "claim": "four-day publication window",
+      "reported": 4,
+      "unit_or_note": "天，发表时间"
+    },
+    {
+      "id": "P17",
+      "locations": "p4 Figure2 Cluster方框；p6 §3.2",
+      "kind": "实现参数",
+      "claim": ">=2 distinct outlets per story",
+      "reported": 2,
+      "unit_or_note": "媒体"
+    },
+    {
+      "id": "P18",
+      "locations": "p6 §3.2",
+      "kind": "实现参数",
+      "claim": "top36 stories; outlet count desc then recency then size",
+      "reported": 36,
+      "unit_or_note": "故事"
+    },
+    {
+      "id": "P19",
+      "locations": "p7 §3.4 Reporter；p8 Figure5 UI",
+      "kind": "实现参数",
+      "claim": "five hours default; configurable cadence; every5h",
+      "reported": 5,
+      "unit_or_note": "小时"
+    },
+    {
+      "id": "P20",
+      "locations": "p2 引言末",
+      "kind": "采集时间",
+      "claim": "snapshot of roughly few hours of crawling",
+      "reported": null,
+      "unit_or_note": "采集时长"
+    },
+    {
+      "id": "P21",
+      "locations": "p10 §5 Results首段",
+      "kind": "采集时间",
+      "claim": "approximately two weeks of crawling",
+      "reported": null,
+      "unit_or_note": "采集时长"
+    },
+    {
+      "id": "P22",
+      "locations": "p1 摘要；p2 contributions；p7 §3.3；p9 §4.1；p4 Figure2 VersionedArchive",
+      "kind": "实现声明",
+      "claim": "every analysis prompt fingerprint SHA-256(system+schema), temperature, content-addressed snapshots+index",
+      "reported": null,
+      "unit_or_note": "可复现元数据"
+    },
+    {
+      "id": "P23",
+      "locations": "p1 摘要；p2 contributions；p9 §4.1；p13 §7结论",
+      "kind": "实现声明",
+      "claim": "semantic schema_version; missing=>1.0.0; changelog; schema-versioned JSONL",
+      "reported": null,
+      "unit_or_note": "归档版本"
+    },
+    {
+      "id": "P24",
+      "locations": "p2 contributions；p9 §4.1",
+      "kind": "实现声明",
+      "claim": "documented codebook for archive/store/CSV fields, labels, flags",
+      "reported": null,
+      "unit_or_note": "文档"
+    },
+    {
+      "id": "P25",
+      "locations": "p1 摘要；p2 contributions；p8 §3.5；p9 §4.2；p10 Fig7；p11 human agreement；p13结论及Availability；p4 Figure2 EvaluationHarness",
+      "kind": "实现声明",
+      "claim": "working evaluation harness computes four measurements",
+      "reported": null,
+      "unit_or_note": "harness状态"
+    },
+    {
+      "id": "P26",
+      "locations": "p13 §6 Ethics末段",
+      "kind": "未来计划",
+      "claim": "plan to implement a harness in future work",
+      "reported": null,
+      "unit_or_note": "harness状态"
+    },
+    {
+      "id": "P27",
+      "locations": "p2 contribution2；p3 §3；p4 Figure2图注及正文；p7 §3.4 Reporter；p8 Figure5 UI；p4 Figure2 Critic→Reporter箭头及Reporter方框",
+      "kind": "实现声明",
+      "claim": "Reporter receives only Critic-accepted material / verified digests",
+      "reported": null,
+      "unit_or_note": "过滤链路"
+    },
+    {
+      "id": "P28",
+      "locations": "p5 Table1图注；p9 §4.2；p10 Fig7 UI；p12 §6；p13 Ethics",
+      "kind": "测量定义",
+      "claim": "reference lean derived MBFC-style; approximate hand-assigned vs ground truth",
+      "reported": null,
+      "unit_or_note": "人工评分"
+    },
+    {
+      "id": "P29",
+      "locations": "p11 Table2图注",
+      "kind": "加权解释",
+      "claim": "outlets fewer than2 carry little weight; correlation dominated by well-sampled outlets",
+      "reported": null,
+      "unit_or_note": "权重"
+    },
+    {
+      "id": "P30",
+      "locations": "p11 bias结果首段",
+      "kind": "结果归因",
+      "claim": "strongest agreements TASS, Global Times, Mehr News",
+      "reported": null,
+      "unit_or_note": "Global Times缺席Table2"
+    },
+    {
+      "id": "P31",
+      "locations": "p11 verification结果",
+      "kind": "结果归因",
+      "claim": "sentiment,bias,framing usually grounded; loaded language,omissions,tone often unsupported",
+      "reported": null,
+      "unit_or_note": "需字段级统计"
+    },
+    {
+      "id": "P32",
+      "locations": "p4 §3正文",
+      "kind": "效度限制",
+      "claim": "same model Analyst/Critic not independent; support by supplied text not factual correctness",
+      "reported": null,
+      "unit_or_note": "测量效度"
+    },
+    {
+      "id": "P33",
+      "locations": "p10 §4.2末；p11 Human agreement",
+      "kind": "实际观测",
+      "claim": "no annotation file current snapshot; kappa/ARI/FM pending",
+      "reported": null,
+      "unit_or_note": "人工标注"
+    },
+    {
+      "id": "P34",
+      "locations": "p6-p7 §3.3 Analyst",
+      "kind": "实现参数",
+      "claim": "eight analysis fields; loaded_language<=5,tone_keywords<=5; sentiment[-1,1],bias confidence[0,1]",
+      "reported": {
+        "field_count": 8,
+        "loaded_max": 5,
+        "tone_max": 5
+      },
+      "unit_or_note": "schema"
+    },
+    {
+      "id": "P35",
+      "locations": "p7 §3.3 Analyst",
+      "kind": "实现声明",
+      "claim": "URL cache unchanged avoids model reinvoke; deterministic mock transparently tagged on individual failure",
+      "reported": null,
+      "unit_or_note": "缓存/回退"
+    },
+    {
+      "id": "P36",
+      "locations": "p4 §3.1；p5 §3.1延续",
+      "kind": "实现声明",
+      "claim": "body fetch fallback summary+body_incomplete; retain last good data; staleness surfaced; no paywall/robots bypass",
+      "reported": null,
+      "unit_or_note": "采集保障"
+    },
+    {
+      "id": "P37",
+      "locations": "p6 §3.2",
+      "kind": "实现声明",
+      "claim": "cross-crawl URL/content story tracking stable ids; topic headline neutral outlet preference",
+      "reported": null,
+      "unit_or_note": "聚类追踪"
+    },
+    {
+      "id": "P38",
+      "locations": "p7 §3.4 Reporter",
+      "kind": "实现参数",
+      "claim": "briefing headline/summary/1-4 coverage divergences/implications",
+      "reported": {
+        "min_divergences": 1,
+        "max_divergences": 4
+      },
+      "unit_or_note": "schema"
+    },
+    {
+      "id": "P39",
+      "locations": "p10 Figure7 UI",
+      "kind": "界面观测",
+      "claim": "Pearson0.60,Spearman0.53,15outlets,verification0.52",
+      "reported": {
+        "pearson": 0.6,
+        "spearman": 0.53,
+        "outlets": 15,
+        "verification": 0.52
+      },
+      "unit_or_note": "截图快照未标识"
+    },
+    {
+      "id": "P40",
+      "locations": "p8 Figure5 UI",
+      "kind": "界面观测",
+      "claim": "Verification rate0.46 (110 articles)",
+      "reported": {
+        "verification": 0.46,
+        "scored_articles": 110
+      },
+      "unit_or_note": "当前store或归档待核对"
+    },
+    {
+      "id": "P41",
+      "locations": "p12 Figure9 UI",
+      "kind": "界面观测",
+      "claim": "3174 total;17 outlets;16 clusters; analyzed50%,1577 with LLM analysis",
+      "reported": {
+        "total": 3174,
+        "outlets": 17,
+        "clusters": 16,
+        "analyzed": 1577,
+        "analyzed_pct": 50
+      },
+      "unit_or_note": "截图口径未标识"
+    },
+    {
+      "id": "P42",
+      "locations": "p12 Figure8 图注与截图",
+      "kind": "图文一致性",
+      "claim": "caption claims lean comparison+Critic per-field; actual image volume charts+trending topics",
+      "reported": null,
+      "unit_or_note": "图像内容"
+    },
+    {
+      "id": "P43",
+      "locations": "p5 Figure3 UI vs Table1/Table2",
+      "kind": "参考评分一致性",
+      "claim": "Indian Express UI=Center vs Table1 lean-left/Table2=-0.50",
+      "reported": null,
+      "unit_or_note": "UI与参考标准"
+    },
+    {
+      "id": "P44",
+      "locations": "p13 Availability脚注",
+      "kind": "复现入口",
+      "claim": "https://github.com/<owner>/same-story-different-lens",
+      "reported": null,
+      "unit_or_note": "占位URL，非可定位发布版本"
+    },
+    {
+      "id": "P45",
+      "locations": "p12 Figure9图注及截图",
+      "kind": "图文一致性",
+      "claim": "caption includes verification scores but screenshot only volume/sentiment/core counts; no verification score visible",
+      "reported": null,
+      "unit_or_note": "图像证据"
+    }
+  ],
+  "table2": [
+    {
+      "outlet": "Al-Monitor",
+      "source_id": "almonitor",
+      "reference": -0.5,
+      "model_display": -0.03,
+      "n": 123
+    },
+    {
+      "outlet": "Anadolu",
+      "source_id": "anadolu",
+      "reference": 0.5,
+      "model_display": 0.0,
+      "n": 34
+    },
+    {
+      "outlet": "Daily News Egypt",
+      "source_id": "dailynewsegypt",
+      "reference": 0,
+      "model_display": 0.03,
+      "n": 18
+    },
+    {
+      "outlet": "ECNS",
+      "source_id": "ecns",
+      "reference": 0.5,
+      "model_display": 0.1,
+      "n": 10
+    },
+    {
+      "outlet": "France 24",
+      "source_id": "france24",
+      "reference": 0,
+      "model_display": -0.07,
+      "n": 81
+    },
+    {
+      "outlet": "Indian Express",
+      "source_id": "indianexpress",
+      "reference": -0.5,
+      "model_display": 0.03,
+      "n": 34
+    },
+    {
+      "outlet": "IRNA",
+      "source_id": "irna",
+      "reference": 1,
+      "model_display": 0.25,
+      "n": 2
+    },
+    {
+      "outlet": "Mehr News",
+      "source_id": "mehrnews",
+      "reference": 1,
+      "model_display": 0.29,
+      "n": 29
+    },
+    {
+      "outlet": "NPR",
+      "source_id": "npr",
+      "reference": -0.5,
+      "model_display": -0.28,
+      "n": 23
+    },
+    {
+      "outlet": "Sky News",
+      "source_id": "skynews",
+      "reference": 0,
+      "model_display": -0.33,
+      "n": 3
+    },
+    {
+      "outlet": "TASS",
+      "source_id": "tass",
+      "reference": 1,
+      "model_display": 0.5,
+      "n": 98
+    },
+    {
+      "outlet": "The National",
+      "source_id": "thenational",
+      "reference": 0,
+      "model_display": 0.06,
+      "n": 172
+    },
+    {
+      "outlet": "Yonhap",
+      "source_id": "yonhap",
+      "reference": 0,
+      "model_display": 0.0,
+      "n": 55
+    },
+    {
+      "outlet": "AllAfrica",
+      "source_id": "allafrica",
+      "reference": 0,
+      "model_display": -0.09,
+      "n": 11
+    },
+    {
+      "outlet": "Doha News",
+      "source_id": "dohanews",
+      "reference": 0,
+      "model_display": -0.13,
+      "n": 4
+    }
+  ],
+  "figure7_visible_rows": [
+    {
+      "source_id": "skynews",
+      "reference": 0,
+      "mean_display": 0,
+      "n": 34
+    },
+    {
+      "source_id": "france24",
+      "reference": 0,
+      "mean_display": -0.05,
+      "n": 208
+    },
+    {
+      "source_id": "npr",
+      "reference": -0.5,
+      "mean_display": -0.23,
+      "n": 41
+    },
+    {
+      "source_id": "indianexpress",
+      "reference": -0.5,
+      "mean_display": 0.02,
+      "n": 89
+    },
+    {
+      "source_id": "irna",
+      "reference": 1,
+      "mean_display": -0.01,
+      "n": 100
+    },
+    {
+      "source_id": "mehrnews",
+      "reference": 1,
+      "mean_display": 0.04,
+      "n": 130
+    },
+    {
+      "source_id": "dohanews",
+      "reference": 0,
+      "mean_display": -0.1,
+      "n": 10
+    },
+    {
+      "source_id": "almonitor",
+      "reference": -0.5,
+      "mean_display": -0.03,
+      "n": 163
+    },
+    {
+      "source_id": "thenational",
+      "reference": 0,
+      "mean_display": 0.06,
+      "n": 308
+    },
+    {
+      "source_id": "yonhap",
+      "reference": 0,
+      "mean_display": 0.01,
+      "n": 83
+    },
+    {
+      "source_id": "anadolu",
+      "reference": 0.5,
+      "mean_display": 0.02,
+      "n": 70
+    },
+    {
+      "source_id": "dailynewsegypt",
+      "reference": 0,
+      "mean_display": 0.0,
+      "n": 42
+    },
+    {
+      "source_id": "allafrica",
+      "reference": 0,
+      "mean_display": -0.04,
+      "n": 28
+    }
+  ],
+  "figure7_note": "Only 13 rows visible; image ends at allafrica. Do not fabricate missing last 2 rows."
+}

@@ -1,0 +1,347 @@
+{
+  "source": "server/src/eval/{eval,metrics}.ts (transpiled in memory)",
+  "node": "v26.4.0",
+  "typescript": "5.9.3",
+  "configured_feeds": [
+    {
+      "outlet": "skynews",
+      "kind": "rss",
+      "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+      "section": "world"
+    },
+    {
+      "outlet": "skynews",
+      "kind": "rss",
+      "url": "https://feeds.skynews.com/feeds/rss/politics.xml",
+      "section": "politics"
+    },
+    {
+      "outlet": "france24",
+      "kind": "rss",
+      "url": "https://www.france24.com/en/rss",
+      "section": "world"
+    },
+    {
+      "outlet": "npr",
+      "kind": "rss",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "section": "world"
+    },
+    {
+      "outlet": "npr",
+      "kind": "rss",
+      "url": "https://feeds.npr.org/1014/rss.xml",
+      "section": "politics"
+    },
+    {
+      "outlet": "indianexpress",
+      "kind": "rss",
+      "url": "https://indianexpress.com/feed/",
+      "section": "world"
+    },
+    {
+      "outlet": "irna",
+      "kind": "rss",
+      "url": "https://en.irna.ir/rss",
+      "section": "world"
+    },
+    {
+      "outlet": "mehrnews",
+      "kind": "rss",
+      "url": "https://en.mehrnews.com/rss",
+      "section": "world"
+    },
+    {
+      "outlet": "thenews",
+      "kind": "rss",
+      "url": "https://www.thenews.com.pk/rss/1/1",
+      "section": "world"
+    },
+    {
+      "outlet": "dohanews",
+      "kind": "rss",
+      "url": "https://dohanews.co/feed/",
+      "section": "world"
+    },
+    {
+      "outlet": "almonitor",
+      "kind": "rss",
+      "url": "https://www.al-monitor.com/rss",
+      "section": "world"
+    },
+    {
+      "outlet": "thenational",
+      "kind": "rss",
+      "url": "https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml",
+      "section": "world"
+    },
+    {
+      "outlet": "yonhap",
+      "kind": "rss",
+      "url": "https://en.yna.co.kr/RSS/news.xml",
+      "section": "world"
+    },
+    {
+      "outlet": "anadolu",
+      "kind": "rss",
+      "url": "https://www.aa.com.tr/en/rss/default?cat=world",
+      "section": "world"
+    },
+    {
+      "outlet": "dailynewsegypt",
+      "kind": "rss",
+      "url": "https://www.dailynewsegypt.com/feed/",
+      "section": "world"
+    },
+    {
+      "outlet": "allafrica",
+      "kind": "rss",
+      "url": "https://allafrica.com/tools/headlines/rdf/africa/headlines.rdf",
+      "section": "world"
+    },
+    {
+      "outlet": "tass",
+      "kind": "rss",
+      "url": "https://tass.com/rss/v2.xml",
+      "section": "world"
+    },
+    {
+      "outlet": "globaltimes",
+      "kind": "rss",
+      "url": "https://www.globaltimes.cn/rss/outbrain.xml",
+      "section": "world"
+    },
+    {
+      "outlet": "ecns",
+      "kind": "rss",
+      "url": "http://www.ecns.cn/rss/rss.xml",
+      "section": "world"
+    }
+  ],
+  "cluster": {
+    "minOutlets": 2,
+    "similarityThreshold": 0.25,
+    "jaccardThreshold": 0.55,
+    "sameOutletSimilarity": 0.45,
+    "sameOutletJaccard": 0.7,
+    "maxDaySpan": 4
+  },
+  "topN": 36,
+  "singlesLimit": 40,
+  "briefingIntervalHours": 5,
+  "actual_report": {
+    "generated_at": "2026-10-22T03:38:20.921Z",
+    "ground_truth_source": "Media Bias/Fact Check style reference lean — approximate, verify before citing",
+    "bias_correlation": {
+      "n": 15,
+      "pearson_r": 0.57,
+      "spearman_rho": 0.56
+    },
+    "outlets": [
+      {
+        "outlet": "skynews",
+        "gt_lean": 0,
+        "llm_lean": 0.01,
+        "n": 46
+      },
+      {
+        "outlet": "france24",
+        "gt_lean": 0,
+        "llm_lean": -0.06,
+        "n": 226
+      },
+      {
+        "outlet": "npr",
+        "gt_lean": -0.5,
+        "llm_lean": -0.21,
+        "n": 49
+      },
+      {
+        "outlet": "indianexpress",
+        "gt_lean": -0.5,
+        "llm_lean": 0.01,
+        "n": 115
+      },
+      {
+        "outlet": "irna",
+        "gt_lean": 1,
+        "llm_lean": -0.05,
+        "n": 156
+      },
+      {
+        "outlet": "mehrnews",
+        "gt_lean": 1,
+        "llm_lean": 0.04,
+        "n": 194
+      },
+      {
+        "outlet": "dohanews",
+        "gt_lean": 0,
+        "llm_lean": -0.11,
+        "n": 14
+      },
+      {
+        "outlet": "almonitor",
+        "gt_lean": -0.5,
+        "llm_lean": -0.05,
+        "n": 203
+      },
+      {
+        "outlet": "thenational",
+        "gt_lean": 0,
+        "llm_lean": 0.06,
+        "n": 399
+      },
+      {
+        "outlet": "yonhap",
+        "gt_lean": 0,
+        "llm_lean": 0.01,
+        "n": 98
+      },
+      {
+        "outlet": "anadolu",
+        "gt_lean": 0.5,
+        "llm_lean": 0.03,
+        "n": 99
+      },
+      {
+        "outlet": "dailynewsegypt",
+        "gt_lean": 0,
+        "llm_lean": 0.02,
+        "n": 56
+      },
+      {
+        "outlet": "allafrica",
+        "gt_lean": 0,
+        "llm_lean": -0.03,
+        "n": 36
+      },
+      {
+        "outlet": "tass",
+        "gt_lean": 1,
+        "llm_lean": 0.24,
+        "n": 316
+      },
+      {
+        "outlet": "ecns",
+        "gt_lean": 0.5,
+        "llm_lean": 0.17,
+        "n": 29
+      }
+    ],
+    "annotations": {
+      "status": "missing",
+      "file": "data/annotations.csv",
+      "count": 0
+    },
+    "cohen_kappa": {
+      "sentiment": null,
+      "bias": null,
+      "sentiment_llm_vs_gold": null,
+      "bias_llm_vs_gold": null
+    },
+    "topic": {
+      "ari": null,
+      "fowlkes_mallows": null,
+      "n": 0
+    },
+    "verification_rate": 0.51
+  },
+  "comparisons": [
+    {
+      "name": "project_current_rows",
+      "pearson": 0.5664887023064012,
+      "spearman": 0.5551928928211782,
+      "absolute_pearson_difference_from_scipy": 0.0,
+      "absolute_spearman_difference_from_scipy": 1.1102230246251565e-16
+    },
+    {
+      "name": "deepseek_rows",
+      "pearson": 0.6967554965552483,
+      "spearman": 0.5661303711357502,
+      "absolute_pearson_difference_from_scipy": 0.0,
+      "absolute_spearman_difference_from_scipy": 1.1102230246251565e-16
+    },
+    {
+      "name": "deepseek_done_rows",
+      "pearson": 0.6900942509219788,
+      "spearman": 0.5666401689618211,
+      "absolute_pearson_difference_from_scipy": 0.0,
+      "absolute_spearman_difference_from_scipy": 1.1102230246251565e-16
+    },
+    {
+      "name": "deepseek_first_eligible_url",
+      "pearson": 0.6773375242254106,
+      "spearman": 0.5661303711357502,
+      "absolute_pearson_difference_from_scipy": 2.220446049250313e-16,
+      "absolute_spearman_difference_from_scipy": 1.1102230246251565e-16
+    },
+    {
+      "name": "deepseek_last_eligible_url",
+      "pearson": 0.680447550806346,
+      "spearman": 0.5661303711357502,
+      "absolute_pearson_difference_from_scipy": 1.1102230246251565e-16,
+      "absolute_spearman_difference_from_scipy": 1.1102230246251565e-16
+    },
+    {
+      "name": "archive_first_url_then_deepseek",
+      "pearson": 0.6792748531890568,
+      "spearman": 0.5851919997935194,
+      "absolute_pearson_difference_from_scipy": 1.1102230246251565e-16,
+      "absolute_spearman_difference_from_scipy": 0.0
+    },
+    {
+      "name": "archive_last_url_then_deepseek",
+      "pearson": 0.685953705911949,
+      "spearman": 0.5761795657456901,
+      "absolute_pearson_difference_from_scipy": 1.1102230246251565e-16,
+      "absolute_spearman_difference_from_scipy": 0.0
+    },
+    {
+      "name": "deepseek_ordinal_labels_only",
+      "pearson": 0.7698724857345682,
+      "spearman": 0.6190810230226528,
+      "absolute_pearson_difference_from_scipy": 0.0,
+      "absolute_spearman_difference_from_scipy": 0.0
+    },
+    {
+      "name": "project_current_rows_full_precision",
+      "pearson": 0.5661976414407427,
+      "spearman": 0.5109232511273768,
+      "absolute_pearson_difference_from_scipy": 1.1102230246251565e-16,
+      "absolute_spearman_difference_from_scipy": 0.0
+    },
+    {
+      "name": "project_current_rows_rounded_2dp",
+      "pearson": 0.5664887023064012,
+      "spearman": 0.5551928928211782,
+      "absolute_pearson_difference_from_scipy": 0.0,
+      "absolute_spearman_difference_from_scipy": 1.1102230246251565e-16
+    },
+    {
+      "name": "deepseek_rows_full_precision",
+      "pearson": 0.6967554965552483,
+      "spearman": 0.5661303711357502,
+      "absolute_pearson_difference_from_scipy": 0.0,
+      "absolute_spearman_difference_from_scipy": 1.1102230246251565e-16
+    },
+    {
+      "name": "deepseek_rows_rounded_2dp",
+      "pearson": 0.6933111485096378,
+      "spearman": 0.5666401689618211,
+      "absolute_pearson_difference_from_scipy": 3.3306690738754696e-16,
+      "absolute_spearman_difference_from_scipy": 1.1102230246251565e-16
+    },
+    {
+      "name": "paper_display_values_only",
+      "pearson": 0.7604336485341173,
+      "spearman": 0.6631061922774542,
+      "absolute_pearson_difference_from_scipy": 3.3306690738754696e-16,
+      "absolute_spearman_difference_from_scipy": 0.0
+    }
+  ],
+  "boundary_checks": {
+    "ari_identical_singletons": 0,
+    "ari_identical_single_cluster": 0
+  }
+}

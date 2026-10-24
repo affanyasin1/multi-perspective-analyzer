@@ -1,0 +1,16 @@
+﻿outlet,reference_rating,reference_lean,n_records,n_unique_urls,n_directional_labels,n_not_determinable,model_mean_full_precision,model_mean_js_rounded_2dp,correlation_input_mean
+skynews,center,0,25,25,4,21,-0.02,-0.02,-0.02
+france24,center,0,125,125,66,59,-0.036,-0.04,-0.036
+npr,lean-left,-0.5,27,27,20,7,-0.14814814814814814,-0.15,-0.14814814814814814
+indianexpress,lean-left,-0.5,68,68,27,41,0.007352941176470588,0.01,0.007352941176470588
+irna,right,1,87,87,0,87,0.0,0.0,0.0
+mehrnews,right,1,107,107,59,48,0.14485981308411214,0.14,0.14485981308411214
+dohanews,center,0,4,4,3,1,-0.125,-0.12,-0.125
+almonitor,lean-left,-0.5,101,101,91,10,-0.019801980198019802,-0.02,-0.019801980198019802
+thenational,center,0,213,213,157,56,0.04460093896713615,0.04,0.04460093896713615
+yonhap,center,0,51,51,44,7,0.0,0.0,0.0
+anadolu,lean-right,0.5,63,63,42,21,0.0,0.0,0.0
+dailynewsegypt,center,0,30,30,20,10,0.05,0.05,0.05
+allafrica,center,0,22,22,13,9,-0.022727272727272728,-0.02,-0.022727272727272728
+tass,right,1,164,164,93,71,0.23780487804878048,0.24,0.23780487804878048
+ecns,lean-right,0.5,12,12,9,3,0.08333333333333333,0.08,0.08333333333333333

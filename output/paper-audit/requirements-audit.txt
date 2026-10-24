@@ -1,0 +1,4 @@
+# Python 3.12.2 used in this audit; no download was performed.
+numpy==2.2.6
+scipy==1.16.3
+# Node v26.4.0 + existing server/node_modules/typescript 5.9.3 are used by bridge.

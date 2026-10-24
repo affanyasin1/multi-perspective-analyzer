@@ -1,0 +1,93 @@
+{
+  "generated_utc": "2026-10-22T03:38:20.969632+00:00",
+  "git_head": "8821483ab8eb9e2c9d03aa1e3e35df35ebeaab4e",
+  "inputs_sha256_before": {
+    "data/archive.jsonl": "fd083c34c7aeb68cc5a56abc5d602982ec2d1843b8e2a9ac2dd54fbae107968d",
+    "data/groundtruth.json": "055959b4718f281982164dde83273a19d6a8178b2a880470c639ea522b6d6a64",
+    "data/store.json": "abad2be6b49f37a831571c5468111fbb466bed852ce346781d1a6b2e8adb9f8c",
+    "News_Agreegator_6___Shared-4.pdf": "0db405b267323a316ef2dc96276a8b381777e3ad4b7295c662c0e6c3d54c7931"
+  },
+  "inputs_sha256_after": {
+    "data/archive.jsonl": "fd083c34c7aeb68cc5a56abc5d602982ec2d1843b8e2a9ac2dd54fbae107968d",
+    "data/groundtruth.json": "055959b4718f281982164dde83273a19d6a8178b2a880470c639ea522b6d6a64",
+    "data/store.json": "abad2be6b49f37a831571c5468111fbb466bed852ce346781d1a6b2e8adb9f8c",
+    "News_Agreegator_6___Shared-4.pdf": "0db405b267323a316ef2dc96276a8b381777e3ad4b7295c662c0e6c3d54c7931"
+  },
+  "protected_inputs_unchanged": true,
+  "dependencies": {
+    "python": "3.12.2",
+    "scipy": "1.16.3",
+    "numpy": "2.2.6",
+    "node": "v26.4.0",
+    "typescript": "5.9.3"
+  },
+  "scripts_sha256": {
+    "audit_paper_results.py": "887dba064b59c73710a08c5b93c62c468a3cf151af408c58c64d67d276be233f",
+    "audit_project_bridge.cjs": "cc35dc82bbb51a7bacb4b8c909f5f012016269047109d441af7b024f11512352"
+  },
+  "sources_sha256": {
+    "server/src/analyze.ts": "de7b56bfdb355365dac17aeb30a72fe3450edf06c5f5f4dfa664732d7db1c12c",
+    "server/src/llm-test.ts": "0811528ce98f41e5aebffcfe501d1e9e9a60bcd30f5b2d02064067ff1e54302b",
+    "server/src/timezones.ts": "1db9054d57c9bbd6dd5e7f91492874574abca1dccc10dabe1a9aa66d739681ab",
+    "server/src/insights.ts": "244f756efc94631baba2a8b1fad9e35b6b966116a3e0e255dcc74a4676d3e009",
+    "server/src/entities.ts": "a0f6cfbc1d4c3565bc10bc62b98a01c37e7c732f31b39a30a5c585dad1ea9799",
+    "server/src/archive.ts": "4a907422d9fb6dd95bd1f96bc1b9563ff81be0dee7426d8803d53627ea2c13c9",
+    "server/src/pipeline.ts": "cfa4be0b6316cab6ddd4c451248daaed19fcfb79a517473494ac12e9a5593ab3",
+    "server/src/cluster.ts": "a8d41810bda5225715beb4bfef690ab536060e04ac7dc42d2f57f56e62a638d1",
+    "server/src/seed.ts": "f22d6f78e0c893b4c2e011539814a898f626994dc0b1f489481f9019702cb0d1",
+    "server/src/dashboard.ts": "da3981b91cd94a8c41425025f2e37d91c1a997e798e7fb2c2ffeb7789b7e79f4",
+    "server/src/types.ts": "f4745ca51bf1168adb5500a910a6a5e4c2ea4dfe8967ddf95643c6f47c7c9103",
+    "server/src/normalize.ts": "d4d5fb04d2e07ccedfdbc283e96a4185a5c486773f5918c46f691816d2d91451",
+    "server/src/index.ts": "daed157c99c213d84e480304a2d2b3ab7e2155710f68df6c8c33dd0895754f86",
+    "server/src/config.ts": "51f8f1d673d8b3711a0a67103eee73bf79055747475edb6152e8d4e5506fae93",
+    "server/src/imageCheck.ts": "b1bc448a12b1ffb8aa313242f7df05964820d95a0b870cd84efcf42d0bb2f2d9",
+    "server/src/ingest.ts": "73247ee9b1dd2b2644e8f916b9aa46ced20893a2d28ccd9f0d7a6a1ee5929fe8",
+    "server/src/store.ts": "997e72cf1ef746eb090e872debbddd6e04688c5e0fbd672552b9edfad180536e",
+    "server/src/crawl.ts": "7abe05bb9a04e149615852afd66a6e06cc3b60910223ffeb16ca80e63897da39",
+    "server/src/llm/critic.ts": "ef151b7df467761f213405137f9012f8786e2e113fcdb013fc18fad7c728f98b",
+    "server/src/llm/providers.ts": "db5d690400dbed95619df9c010ba285ba77403c730b70ff0b755af1faad5cab3",
+    "server/src/llm/prompts.ts": "c24626afa25d7bd4fe7df90c5727a49e4f897ca01a6f40d5d7351002c750f70f",
+    "server/src/llm/reporter.ts": "e4f80cbabddcbcf349c206b4bdc115c6e01987a6a3064cceae7c638ff132e9f6",
+    "server/src/eval/eval.ts": "b8a13cd52d485ffa4ce849cde7b56894f7c89650bb6779a11f6ecb97bb5d4825",
+    "server/src/eval/groundtruth.ts": "63d228c8f44c14f7c9431f9009568571020b01ad9e522e7726b3b97082ed5f2e",
+    "server/src/eval/metrics.ts": "32aa1002acc8064fc2b279bbe6fd971e95abda5cf0f73be37aa9980de920c769",
+    "client/src/App.tsx": "0ae60f138d51242e4c71929f9c854e537e77c5642e9e4e3822f7b30c9e1e53d0",
+    "client/src/main.tsx": "a7d69ba151f0a51ead216a2e95a97fe19a5b59b426a6ecb3ffbe0941b93c7a50",
+    "client/src/utils.ts": "3c35d81aefaa913f88fa46ed27a11e269ff957f3cfc83a35b25e19ac8c40d3f8",
+    "client/src/api.ts": "74859aa83d130b83190cd14a290dd894ff8409324fbd6d69bea47700c2329f1b",
+    "client/src/types.ts": "9de81c5cf0bf547bb7af6f42321849b70d04e530df42bfbe797cc10405abda72",
+    "client/src/outlets.ts": "90f4815000c4066900849be40e7c51c5e9b5ad85d1058348a03296cd76956322",
+    "client/src/components/SentimentStrip.tsx": "372df673976956d55f617e7c90abe45e2e2fb4c23d52a0d84aa69d448a6c226a",
+    "client/src/components/StoryCard.tsx": "857221315c0c8ed0ffc2ca73b7bf591c08ec84c65b9264ece923ab6626b13b26",
+    "client/src/components/Chameleon.tsx": "d4557640015960ec0f998875d6c6dc4ceb89bb8c472158ec91142f9e7083349a",
+    "client/src/components/Header.tsx": "3b778e9e8af3e3d6d1654ffe845c715d742fae4f60aecae4282283df6ddc1c51",
+    "client/src/components/NewsImage.tsx": "28e242606943a5a3cd3d6966734891dd8e6f79a30125c25ff6c4cb8be6217f80",
+    "client/src/components/LlmSettings.tsx": "20d4e59948e69867ecefcf5d2b713280dbf035797b505476c632f7c64e2493a6",
+    "client/src/components/ReliabilitySection.tsx": "a5d82736969330f69f119bb493547277fec301276d685ad695612cb77374d76b",
+    "client/src/components/FloatingPet.tsx": "43ff302dcd386c3940ed74b9ed06d7d220242e041a9f8836256aae6812f2a2b4",
+    "client/src/components/AnalysisTabs.tsx": "9a2a6f2eae91df2a497e65fb968693bba63008c56fcc319981a7266bb54ebe94",
+    "client/src/pages/Evaluation.tsx": "e2226c379923d7d404962b52768d7d85cf48aefebb2108089be264ff278216ef",
+    "client/src/pages/Dashboard.tsx": "37bf6dbeba20621394c03eea6a7d6f018f9978b4d84806770e709cc2d2e2c075",
+    "client/src/pages/Home.tsx": "8ee72bc26782a0cf5fc25a042d42c1151f95f495377c9386cda4d88b753085e7",
+    "client/src/pages/Newsroom.tsx": "4d1c3efa9e3927e9f9b461a6516e46f32215f1e4f414cc1db6b44040befd32b8",
+    "client/src/pages/Outlets.tsx": "0cab203b8420b966d9ba3395e8cb1f5e65aad881fe3f27645d838c0c5403c950",
+    "client/src/pages/Insights.tsx": "2f7eaf6ad529d4153eb7eff2a57144fc23926a48bfd098ebaee5b27c4062f7c7",
+    "client/src/pages/Singles.tsx": "778a172eea3c064c2abcb906f62af5ae2d0f77c651b1aea33b63a7f067dcbc06",
+    "client/src/pages/Story.tsx": "29ba35b17704501c852a17468d11b717ce35084d8c68325adf7bd02c796741cd",
+    "client/src/pages/SingleDetail.tsx": "e37b5cc9a26e95876983f9865e6086ff4efa38b923cbdff6684cf78e88da9953"
+  },
+  "paper_snapshot_identification": "unconfirmed; current archive is not asserted to equal paper snapshot",
+  "run_command": "python3 scripts/audit_paper_results.py",
+  "audit_script_sha256": {
+    "audit_claim_matrix.py": "d6fd21604b12fa6ebebb2ceec28995699085b95f83e915c8278a7fb89dacd6ac",
+    "audit_paper_results.py": "887dba064b59c73710a08c5b93c62c468a3cf151af408c58c64d67d276be233f",
+    "audit_project_bridge.cjs": "cc35dc82bbb51a7bacb4b8c909f5f012016269047109d441af7b024f11512352",
+    "audit_snapshot_forensics.py": "163e29c28a0eac539caad83d795e723384a0ca0c9bb90ccd4cc79b41507df0bc"
+  },
+  "context_input_sha256": {
+    "data/server.log": "594ee28be7e7a025999b218907cb3fec08f246ff9d9980949143b73a51dc11f6",
+    "data/crawl.log": "fe1a4f6abbf031021557cc68b8c31532fe90b2c4bab4b165e663eed57fd93ede",
+    "data/world-briefing.json": "4df338a251207093f9dda567890e0376ce0bec1e6cefb50b88cae921a7265eac",
+    "output/paper-audit/paper-claims.json": "cbd1f0a444335071f8e58a3f4361a2a033ff14490b6865987421aac982854c92"
+  }
+}

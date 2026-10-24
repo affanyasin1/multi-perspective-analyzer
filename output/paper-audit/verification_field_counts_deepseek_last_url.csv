@@ -1,0 +1,9 @@
+﻿field,verified_fields_records,unsupported_fields_records,both_sides_records,scored_record_denominator
+bias_rating,302,477,0,811
+fact_vs_opinion,389,422,0,811
+framing,657,154,0,811
+insufficient_evidence_flags,332,123,0,811
+loaded_language,673,235,99,811
+omissions,628,234,53,811
+sentiment,612,198,0,811
+tone_keywords,608,203,1,811

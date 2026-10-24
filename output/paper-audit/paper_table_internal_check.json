@@ -1,0 +1,42 @@
+{
+  "n_outlets": 15,
+  "pearson_r": 0.760433648534117,
+  "spearman_rho": 0.6631061922774542,
+  "x_average_tie_ranks": [
+    2.0,
+    11.5,
+    7.0,
+    11.5,
+    7.0,
+    2.0,
+    14.0,
+    14.0,
+    2.0,
+    7.0,
+    14.0,
+    7.0,
+    7.0,
+    7.0,
+    7.0
+  ],
+  "y_average_tie_ranks": [
+    6.0,
+    7.5,
+    9.5,
+    12.0,
+    5.0,
+    9.5,
+    13.0,
+    14.0,
+    2.0,
+    1.0,
+    15.0,
+    11.0,
+    7.5,
+    4.0,
+    3.0
+  ],
+  "source": "PDF p11 Table2 displayed values ONLY; not original-data reproduction",
+  "n_sum": 697,
+  "reported_real_analyses_minus_table_n": 633
+}
